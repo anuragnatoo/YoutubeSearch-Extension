@@ -1,0 +1,19 @@
+{
+    "manifest_version":2,
+    "name":"Youtubeit",
+    "version":"1.0",
+    "description":"With this extension you can search Youtube on the go",
+    "icons":{
+        "128": "icon128.png",
+        "48":"icon48.png",
+        "16":"icon16.png"
+    },
+    "background":{
+        "scripts":["eventPage.js"],
+        "persistent":false
+    },
+    "permissions":[
+        "tabs",
+        "contextMenus"
+    ]
+}
